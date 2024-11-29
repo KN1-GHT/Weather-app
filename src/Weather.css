@@ -1,0 +1,75 @@
+/* Weather.css */
+.weather-image-lg {
+    width: 40vh;
+    /* Adjust the width as per your preference */
+    height: auto;
+    /* Keep the aspect ratio of the logo */
+    margin-bottom: 20px;
+}
+
+.weather-image {
+    width: 150px; /* Make the weather image smaller */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #78a2c7 0%, #5ba3b9 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.weather-container form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-details {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.weather-details h2 {
+    margin-bottom: 20px;
+}
+
+.weather-details p {
+    margin: 5px 0;
+}
+
+.error-message {
+    color: rgb(0, 0, 0);           
+    font-size: 24px;    
+    text-align: center;    
+    margin-top: 20px;     
+}
